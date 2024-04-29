@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number-Match-Finder</title>
+</head>
+<body>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            margin: 100px auto;
+        }
+        button {
+            padding: 10px 25px;
+            cursor: pointer;
+            background: #000;
+            color: #fff;
+            border-radius: 100px;
+            border: none;
+            font-size: 1rem;
+        }
+        input {
+            font-size: 1rem;
+            padding: 10px;
+        }
+    </style>
+    <div class="container">
+        <input type="search" id="search">
+        <button class="btn">Raadi</button>
+        <p class="result"></p>
+    </div>
+    <script src="finder.js"></script>
+</body>
+</html>
